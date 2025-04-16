@@ -23,6 +23,11 @@ Este é um projeto simples de **Gerador de QR Code** que permite ao usuário cri
 
 ## Como Rodar o Projeto Localmente
 
+
+## Imagem do projeto
+
+![QR Code Exemplo](imagem-projeto.png)
+
 1. Clone o repositório:
 
 ```bash
