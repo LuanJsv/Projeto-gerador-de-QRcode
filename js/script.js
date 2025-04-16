@@ -8,7 +8,7 @@ function gerarQRcode(){
     const QRinputValue =  QRinput.value
     if(!QRinputValue) return;
     qrcodebtn.innerText = "gerando código..."
-    imgQR.src = ` https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${QRinputValue}`
+    imgQR.src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${QRinputValue}`
 
     imgQR.addEventListener('load',()=>{
     container.classList.add('active')
@@ -32,6 +32,6 @@ QRinput.addEventListener('keydown',(e)=>{
 QRinput.addEventListener('keyup',(e)=>{
     if(!QRinput.value){
          container.classList.remove('active')
-    qrcodebtn.innerText = ""
+    qrcodebtn.innerText = "Gerar QR Code"
     }
 })
