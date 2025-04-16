@@ -31,4 +31,4 @@ Este é um projeto simples de **Gerador de QR Code** que permite ao usuário cri
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/LuanJsv/gerador-qr-code.git
+git clone https://github.com/LuanJsv/Projeto-gerador-de-QRcode.git
