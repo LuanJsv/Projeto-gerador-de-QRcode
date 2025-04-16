@@ -10,7 +10,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 110vh;
-    background-color: #34db71;
+    background: radial-gradient(circle, #086824 20%, #024392);
 }
 
 /* container */
@@ -68,7 +68,7 @@ body{
     margin-top: 20px;
     cursor: pointer;
     opacity: 0.9;
-    transition: 0.4s;
+    transition: 0.8s;
 }
 
 #qr-form button:hover {
